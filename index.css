@@ -1,0 +1,184 @@
+
+
+
+@font-face {
+    src: url(Britannic\ Bold/Britannic\ Bold.ttf);
+    font-family: nice; 
+    }
+
+            *{
+                box-sizing: border-box;
+            }
+                body{
+                    margin: 0;
+                    font-family: nice;
+                    text-align: center;
+                    color: #212020; 
+                }
+    
+
+                
+                .homebar{
+                    display: flex;
+                    box-sizing: border-box;
+                    background: #C2E8F4;
+                    height: 60px;
+                    width: 100%;
+                }
+
+                .child{
+                    height: inherit;
+                    width: 60px;
+                    background-image: url('Chesslogofinal.png');
+                    background-size: 60px 60px;
+                }
+                
+                .homebar ul{
+                    list-style-type: none;
+                    font-size: 20px;
+                    width: 100%;
+                    padding: 0;
+                }
+
+                .homebar li{
+                    float: left;
+                }
+
+                .homebar a{
+                    padding: 20px 20px 16px 20px;
+                    text-decoration: none;
+                    color: #212020;
+                    top: 0;
+                }
+
+                .homebar a:hover{
+                    background-color: #6CB5CD;
+                }
+
+                .banner{
+                    padding: 0;
+                    margin: 0;
+                    width: 100%;
+                    position: relative;
+
+                }
+
+                .banner img{
+                    width: 100%;
+                    height: 300px;
+                    filter: blur(3px);
+                }
+
+                .leftcenter{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    padding: 30px;
+                    font-size: 30px;
+                    background-color: #C2E8F4;
+                }
+
+                .productContainer{
+                    text-align : center;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .img1{
+                    text-align: center;
+                    padding: 0px 50px 0px 50px;
+                }
+
+                .img1 img{
+                    display: block;
+                    margin: 0 auto;
+                    width: 200px;
+                    height: 150px;
+                    
+                }
+
+                .img2{
+                    text-align: center;
+                    margin-left: 1%;
+                    padding: 0px 50px 0px 50px;
+                }
+
+                .img2 img{
+                    display: block;
+                    margin: 0 auto;
+                    width: 200px;
+                    height: 150px;
+                    
+                }
+                .img3{
+                    text-align: center;
+                    margin-left: 1%;
+                    padding: 0px 50px 0px 50px;
+                }
+
+                .img3 img{
+                    display: block;
+                    margin: 0 auto;
+                    width: 200px;
+                    height: 150px;
+
+                }
+                
+                .img4{
+                    text-align: center;
+                    margin-left: 1%;
+                    padding: 0px 50px 0px 50px;
+                }
+
+                .img4 img{
+                    display: block;
+                    margin: 0 auto;
+                    width: 200px;
+                    height: 150px;
+                }
+
+                .img1 a{
+                    font-size: 15px;
+                    padding: 8px;
+                    color: #3DA7DC;
+                    border: 3px solid #3DA7DC;
+                    text-decoration: none;
+                }
+        
+                .img2 a{
+                    font-size: 15px;
+                    padding: 8px;
+                    color: #3DA7DC;
+                    border: 3px solid #3DA7DC;
+                    text-decoration: none;
+                }
+                .img3 a{
+                    font-size: 15px;
+                    padding: 8px;
+                    color: #3DA7DC;
+                    border: 3px solid #3DA7DC;
+                    text-decoration: none;
+                }
+                
+                .img4 a{
+                    font-size: 15px;
+                    padding: 8px;
+                    color: #3DA7DC;
+                    border: 3px solid #3DA7DC;
+                    text-decoration: none;
+                }
+                
+                .img1 a:hover{
+                    font-size: 16px;
+                }
+                .img2 a:hover{
+                    font-size: 16px;
+                }
+                .img3 a:hover{
+                    font-size: 16px;
+                }
+                .img4 a:hover{
+                    font-size: 16px;
+                }
